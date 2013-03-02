@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ QwertyTranslation := specify the characters which are mapped from the English chars to your desired chars.
+ QWERTYUIOPASDFGHJKLZXCVBNM
+ -->
+<PhysicalTranslation QwertyTranslation="\u10E5\u10EC\u10D4\u10E0\u10E2\u10E7\u10E3\u10D8\u10DD\u10DE\u10D0\u10E1\u10D3\u10E4\u10D2\u10F0\u10EF\u10D9\u10DA\u10D6\u10EE\u10EA\u10D5\u10D1\u10DC\u10DB">
+	<!-- SequenceMapping
+		keySequence := keycode value (as defined in KeyEvent class) to be mapped to a real unicode character
+		this can be multiple keystrokes.
+	  -->
+	<!-- keycode_O -->
+	<SequenceMapping keySequence="43,43" targetChar="&#x445;"/>
+	<!-- keycode_p -->
+	<SequenceMapping keySequence="44,44" targetChar="&#x44C;"/>
+	<!-- keycode_k -->
+	<SequenceMapping keySequence="39,39" targetChar="&#x436;"/>
+	<!-- keycode_l -->
+	<SequenceMapping keySequence="40,40" targetChar="&#x44D;"/>
+	<!-- keycode_m -->
+	<SequenceMapping keySequence="41,41" targetChar="&#x431;"/>
+	<!-- keycode_comma -->
+	<SequenceMapping keySequence="55,55" targetChar="&#x44E;"/>
+</PhysicalTranslation>
