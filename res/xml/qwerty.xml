@@ -8,18 +8,18 @@
     >
     
     <Row>
-        <Key android:codes="4325" android:keyLabel="ქ" android:keyEdgeFlags="left"/>
-        <Key android:codes="4332" android:keyLabel="წ"/>
-        <Key android:codes="4308" android:keyLabel="ე"/>
-        <Key android:codes="4320" android:keyLabel="რ"/>
-        <Key android:codes="4326" android:keyLabel="ღ"/>
-        <Key android:codes="4322" android:keyLabel="ტ"/>
-        <Key android:codes="4311" android:keyLabel="თ"/>
-        <Key android:codes="4327" android:keyLabel="ყ"/>
-        <Key android:codes="4323" android:keyLabel="უ"/>
-        <Key android:codes="4312" android:keyLabel="ი"/>
-        <Key android:codes="4317" android:keyLabel="ო"/>
-        <Key android:codes="4318" android:keyLabel="პ" android:keyEdgeFlags="right"/>
+        <Key android:codes="4325" android:keyLabel="ქ" android:popupCharacters="1" android:keyEdgeFlags="left"/>
+        <Key android:codes="4332" android:keyLabel="წ" android:popupCharacters="2"/>
+        <Key android:codes="4308" android:keyLabel="ე" android:popupCharacters="3"/>
+        <Key android:codes="4320" android:keyLabel="რ" android:popupCharacters="4"/>
+        <Key android:codes="4326" android:keyLabel="ღ" android:popupCharacters="5"/>
+        <Key android:codes="4322" android:keyLabel="ტ" android:popupCharacters="6"/>
+        <Key android:codes="4311" android:keyLabel="თ" android:popupCharacters="7"/>
+        <Key android:codes="4327" android:keyLabel="ყ" android:popupCharacters="8"/>
+        <Key android:codes="4323" android:keyLabel="უ" android:popupCharacters="9"/>
+        <Key android:codes="4312" android:keyLabel="ი" android:popupCharacters="0"/>
+        <Key android:codes="4317" android:keyLabel="ო" android:popupCharacters="+"/>
+        <Key android:codes="4318" android:keyLabel="პ" android:popupCharacters="-" android:keyEdgeFlags="right"/>
     </Row>
     
     <Row>

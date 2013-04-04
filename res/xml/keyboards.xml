@@ -18,7 +18,7 @@
 	nameResId="@string/keyboard"
 	layoutResId="@xml/qwerty"
 	landscapeResId="@xml/qwerty"
-	physicalKeyboardMappingResId="@xml/ru_physical"
+	physicalKeyboardMappingResId="@xml/physical"
 	iconResId="@drawable/flag"
 	defaultDictionaryLocale="ge" 
 	description="ქართული კლავიატურა (by Stichoza)"
