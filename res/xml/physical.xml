@@ -8,16 +8,7 @@
 		keySequence := keycode value (as defined in KeyEvent class) to be mapped to a real unicode character
 		this can be multiple keystrokes.
 	  -->
-	<!-- keycode_O -->
-	<SequenceMapping keySequence="43,43" targetChar="&#x445;"/>
-	<!-- keycode_p -->
-	<SequenceMapping keySequence="44,44" targetChar="&#x44C;"/>
-	<!-- keycode_k -->
-	<SequenceMapping keySequence="39,39" targetChar="&#x436;"/>
-	<!-- keycode_l -->
-	<SequenceMapping keySequence="40,40" targetChar="&#x44D;"/>
-	<!-- keycode_m -->
-	<SequenceMapping keySequence="41,41" targetChar="&#x431;"/>
-	<!-- keycode_comma -->
-	<SequenceMapping keySequence="55,55" targetChar="&#x44E;"/>
+	<SequenceMapping keySequence="4332,4332" targetChar="ჭ"/>
+	<SequenceMapping keySequence="4320" shiftModifier="true" targetChar="ღ"/>
+	<SequenceMapping keySequence="4322" shiftModifier="true" targetCharCode="4311"/>
 </PhysicalTranslation>
