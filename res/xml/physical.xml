@@ -8,6 +8,7 @@
 		keySequence := keycode value (as defined in KeyEvent class) to be mapped to a real unicode character
 		this can be multiple keystrokes.
 	  -->
+	<!-- Basic shift letters -->
 	<SequenceMapping keySequence="KEYCODE_W" shiftModifier="true" targetChar="ჭ"/>
 	<SequenceMapping keySequence="KEYCODE_R" shiftModifier="true" targetChar="ღ"/>
 	<SequenceMapping keySequence="KEYCODE_T" shiftModifier="true" targetChar="თ"/>
@@ -15,4 +16,10 @@
 	<SequenceMapping keySequence="KEYCODE_J" shiftModifier="true" targetChar="ჟ"/>
 	<SequenceMapping keySequence="KEYCODE_Z" shiftModifier="true" targetChar="ძ"/>
 	<SequenceMapping keySequence="KEYCODE_C" shiftModifier="true" targetChar="ჩ"/>
+	<!-- Old Georgian chars -->
+	<SequenceMapping keySequence="KEYCODE_Y" shiftModifier="true" targetChar="ჱ"/>
+	<SequenceMapping keySequence="KEYCODE_U" shiftModifier="true" targetChar="ჲ"/>
+	<SequenceMapping keySequence="KEYCODE_I" shiftModifier="true" targetChar="ჳ"/>
+	<SequenceMapping keySequence="KEYCODE_O" shiftModifier="true" targetChar="ჴ"/>
+	<SequenceMapping keySequence="KEYCODE_P" shiftModifier="true" targetChar="ჵ"/>
 </PhysicalTranslation>
